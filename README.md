@@ -276,18 +276,6 @@ F --> G[Procedural Report]
 
 ---
 
-This document is formatted correctly in **Markdown**, ensuring:
-- Proper **header levels**
-- **Code blocks** for Python & R
-- **Tables** for structured data
-- **Bullet points** for clarity
-- **Mermaid diagrams** for system architecture
-
-It is now ready for **technical documentation or research publication**. 🚀
-
-
-
-
 
 ## **Expected Outcomes**  
 - An **FDA-cleared pipeline** for AI-assisted endoscopy.  
