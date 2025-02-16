@@ -95,7 +95,7 @@ transforms = A.Compose([
     A.GridDistortion(distort_limit=0.3),  # Simulates intestinal movement
     A.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 ])
-``
+```
 
 
 
