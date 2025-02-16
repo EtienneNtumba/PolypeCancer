@@ -81,6 +81,24 @@ Colorectal polyps are precancerous lesions where early detection drastically red
 
 ---
 
+**Technical Components**:
+```python
+# Frame extraction with OpenCV
+cap = cv2.VideoCapture(video_path)
+frames = [cv2.cvtColor(cap.read()[1], cv2.COLOR_BGR2RGB) 
+          for _ in range(sequence_length)]
+
+# Medical-specific augmentation
+transforms = A.Compose([
+    A.RandomShadow(p=0.3),
+    A.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.1),
+    A.GridDistortion(distort_limit=0.3),  # Simulates intestinal movement
+    A.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+])
+``
+
+
+
 ## **Expected Outcomes**  
 - An **FDA-cleared pipeline** for AI-assisted endoscopy.  
 - **40% reduction** in missed polyps during clinical practice.  
