@@ -40,6 +40,7 @@ Colorectal polyps are precancerous lesions where early detection drastically red
   - Transfer learning on `ImageNet-21K`.  
 - **Real-Time Optimization**:  
   - Post-training quantization (`INT8`) + deployment with `TensorRT`.  
+<<<<<<< HEAD
   - Pruning of redundant layers (weight magnitude criteria).
  
 # Medical Polyp Detection Pipeline: Step-by-Step Implementation
@@ -50,6 +51,10 @@ Colorectal polyps are precancerous lesions where early detection drastically red
 - Spatial-temporal annotation
 - Synthetic polyp generation
 - Medical-grade normalization
+=======
+  - Pruning of redundant layers (weight magnitude criteria).  
+
+>>>>>>> 78cae08 (first commit2)
 ---
 
 ## **Evaluation**  
@@ -81,6 +86,7 @@ Colorectal polyps are precancerous lesions where early detection drastically red
 
 ---
 
+<<<<<<< HEAD
 # Automated Polyp Detection in Gastrointestinal Endoscopy: End-to-End Pipeline
 
 ## 1. Data Preparation & Augmentation
@@ -374,6 +380,8 @@ This implementation provides a **production-ready framework** for clinical deplo
 
 
 
+=======
+>>>>>>> 78cae08 (first commit2)
 ## **Expected Outcomes**  
 - An **FDA-cleared pipeline** for AI-assisted endoscopy.  
 - **40% reduction** in missed polyps during clinical practice.  
