@@ -298,4 +298,13 @@ This implementation provides a **production-ready framework** meeting both techn
 ## **Future Directions**  
 - Extension to other GI cancers (esophageal, gastric).  
 - Integration of **explainable AI** (saliency maps for clinicians).  
-- Adaptation to emerging technologies (capsule endoscopy, NBI/FICE imaging).  
+- Adaptation to emerging technologies (capsule endoscopy, NBI/FICE imaging).
+
+## Author
+
+**Etienne Ntumba Kabongo**  
+📧 Email: [etienne.ntumba.kabongo@umontreal.ca](mailto:etienne.ntumba.kabongo@umontreal.ca)  
+🔗 GitHub: [EtienneNtumba](https://github.com/EtienneNtumba)
+
+
+
